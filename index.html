@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
      <!--BoxIcon-->
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+     <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <!--Navbar-->
@@ -17,11 +19,11 @@
 
         <!--Navlist-->
         <ul class="navbar">
-            <li><a href="#acceuil" class="acceuil">Acceuil</a></li>
+            <li><a href="#acceuil" class="home">Acceuil</a></li>
             <li><a href="#categories">Categories</a></li>
-            <li><a href="#produits">Produits</a></li>
-            <li><a href="#a-propos">A propos</a></li>
-            <li><a href="#clients">Clients</a></li>
+            <li><a href="#products">Produits</a></li>
+            <li><a href="#about">A propos</a></li>
+            <li><a href="#customers">Clients</a></li>
         </ul>
         
         <!--Profile-->
@@ -32,6 +34,44 @@
         </div>
 
     </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <h1>Fierement Malagasy depuis 1953</h1>
+                    <a href="#" class="btn">Acheter<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home1.png" alt="">
+            </div>    
+            <!-- Slide 2 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <h1>Fierement Malagasy depuis 1953</h1>
+                    <a href="#" class="btn">Acheter<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home2.png" alt="">
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <h1>Fierement Malagasy depuis 1953</h1>
+                    <a href="#" class="btn">Acheter<i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <img src="img/home3.png" alt="">
+            </div> 
+        
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+
+    <!--Link to JS -->
+    <script src ="main.js" defer></script>
 
     
 </body>
