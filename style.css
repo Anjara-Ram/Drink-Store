@@ -172,3 +172,87 @@ header {
 .swiper-button-prev::after {
     display: none;
 }
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+.heading span {
+    color: var(--light-green-color);
+}
+.categories {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.categories-container {
+    display : flex;
+    justify-content: center ;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.categories-container .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.categories-container .box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+}
+.categories-container .box img {
+    width: 250px;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+.categories-container .box h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.categories-container .box span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.categories-container .box .bx {
+    padding: 7px;
+    background: var(--light-red-color);
+    border-radius: 5rem;
+    color: var(--bg-color);
+    margin-top: 2rem;
+    position: absolute;
+    bottom: 2%;
+    display: none;
+}
+.categories-container .box .bx:hover {
+    background: var(--light-green-color);
+    transition: 0.2s all linear;
+}
+.categories-container .box:hover .bx {
+    display: block;
+    transition: 0.2s all linear;
+}
+.box1 {
+    background: #ecfff8;
+}
+.box2 {
+    background: #fffdf4;
+}
+.box3 {
+    background: #ffefef;
+}
+.box4 {
+    background: #eefdff;
+}
