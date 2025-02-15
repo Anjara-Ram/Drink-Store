@@ -404,3 +404,74 @@ header {
     font-size: 1rem;
     font-weight: 600;
 }
+.footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    background: #ffdfdf;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+.footer-box p {
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1rem;
+}
+.social {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    margin-top: 40px;
+}
+.social .bx {
+    padding: 10px;
+    background-color: var(--bg-color);
+    color: var(--light-red-color);
+    font-size: 20px;
+    border-radius: 0.5rem;
+}
+.social .bx:hover {
+    background: var(--light-red-color);
+    color: var(--bg-color);
+    transition: 0.2s all linear;
+} 
+.footer-box h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;    
+}
+.footer-box a {
+    color: #494c50;
+    margin-bottom: 1rem;    
+}
+.footer-box a:hover {
+    color: var(--red-color);
+}
+.footer-box form {
+    border-bottom: 1px solid var(--text-color);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.footer-box form input {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.footer-box form .bx {
+    font-size: 20px;
+    color: var(--light-red-color);
+    cursor: pointer;
+}
+.copyright {
+    text-align: center;
+    padding: 20px; 
+}
